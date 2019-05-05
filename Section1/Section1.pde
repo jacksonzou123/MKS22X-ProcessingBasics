@@ -46,6 +46,12 @@ class Visualizer {
       if (values[i] > 50) {
         fill(0,255,0);
       }
+      else if (values[i] > 0) {
+        fill(255,255,0);
+      }
+      else if (values[i] > -50) {
+        fill (255,165,0);
+      }
       else {
         fill(255,0,0);
       }
